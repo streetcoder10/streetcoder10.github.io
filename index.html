@@ -7,20 +7,38 @@
   <link rel="stylesheet" type="text/css" href="portfolio.css"/>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style type="text/css">
+  a:link    {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    }
+  a:visited {
+    /* Applies to all visited links */
+    text-decoration:  none;
+    }
+  a:hover   {
+    /* Applies to links under the pointer */
+    text-decoration:  none;
+    }
+  a:active  {
+    /* Applies to activated links */
+    text-decoration:  none;
+    }
+  </style>
 </head>
 <body class="pagebody container">
   <header class="container">
     <div class="row">
       <h1 href="index.html">Street<span style="color: #D9411E">Coder&nbsp</span></h1>
       <p>Eat! <span style="color: #D9411E">Sleep!</span> Code! <span style="color: #D9411E">Repeat!</span></p>
-      <nav class="navbar navbar-right" role="navigation">
+      <nav class="navbar  navbar-right" role="navigation">
         <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html"><span style="color:white"><i class="fa fa-home"></i></span>&nbspHome</a></li>
-            <li><a href="projects.html"><span style="color:white"><i class="fa fa-briefcase"></i></span>&nbspProjects</a></li>
-            <li><a href="https://streetcoder.org/"><span style="color:white"><i class="fa fa-wordpress"></i></span>&nbspBlog</a></li>
-            <li><a href="https://github.com/streetcoder10"><span style="color:white"><i class="fa fa-github-alt"></i></span>&nbspGitHub</a></li>
-            <li><a href="contact.html"><span style="color:white"><i class="fa fa-paper-plane"></i></span>&nbspContact Me</a></li>
+          <ul class="nav navbar-nav mynavbar">
+            <li><button><a href="index.html"><span style="color:white"><i class="fa fa-home"></i></span>&nbspHome</a></button></li>
+            <li><button><a href="#project"><span style="color:white"><i class="fa fa-briefcase"></i></span>&nbspProjects</a></button></li>
+            <li><button><a href="https://streetcoder.org/"><span style="color:white"><i class="fa fa-wordpress"></i></span>&nbspBlog</a></button></li>
+            <li><button><a href="https://github.com/streetcoder10"><span style="color:white"><i class="fa fa-github-alt"></i></span>&nbspGitHub</a></button></li>
+            <li><button><a href="#contact"><span style="color:white"><i class="fa fa-paper-plane"></i></span>&nbspContact Me</a></button></li>
           </ul>
         </div>
       </div>
@@ -64,6 +82,19 @@
             <li>Worked with JQuery, AngularJS, Bootstrap and GitHub.</li>
             <li>Currently training to use Spring, Hibernate and CLI tools.</li>
             <li>New regular GitHub contributor and blog for all things programming.</li>
+          </ul>
+        </div>
+        <div id="colorbox" class="row">
+          <a id="project"><h3>Projects</h3></a>
+          <ul class="list-unstyled">
+            <li>Portfolio using HTML5/CSS3 and Bootstrap.</li>
+            <li>Java Web Applicaiton using Spring and Hibernate.</li>
+            <li>Responsive Website using HTML5/CSS3, JavaScript, Bootstrap and AngularJS</li>
+          </ul>
+        </div>
+        <div id="colorbox" class="row">
+          <a id="contact"><h3>Contact Me</h3></a>
+          <ul class="list-unstyled">
           </ul>
         </div>
       </div>

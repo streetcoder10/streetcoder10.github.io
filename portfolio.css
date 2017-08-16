@@ -4,6 +4,7 @@
   background-color: #25242C;
   font-family: 'Play';
 }
+
 header h1, p, nav, a {
   display: inline;
   position: relative;
@@ -151,3 +152,26 @@ center h2{
   color: #D9411E;
   font-size: 20px;
 }
+
+.nav>li>button>a:focus, .nav>li>button>a:hover {
+        text-decoration: none;
+        color: red;
+        background-color: transparent !important;
+  }
+
+  center>button>a:focus, center>button>a:hover {
+          text-decoration: none;
+          color: red;
+          background-color: transparent !important;
+    }
+
+  button {
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+      position: relative;
+      top: 9px;
+  }
