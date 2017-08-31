@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-
+<!DOCTYPE html>
 <html>
-
 <head>
-
   <meta charset="utf-8">
-
-  <title>Vikram Portfolio</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="portfolio.css"/>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vikram Gopal</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <style type="text/css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Custom style sheet-->
+  <link rel="stylesheet" href="css/portfolio.css">
+
+  <!-- Custom styles area-->
+  <style>
   a:link    {
     text-decoration:  none;
   }
@@ -30,172 +30,80 @@
   .noIbar {
     cursor:default;
   }
+  body {
+    padding-top: 34px;
+  }
+
   </style>
 
 </head>
 
-<body class="pagebody container noIbar">
+<body>
 
-  <header class="container">
-    <div class="row">
-      <h1 href="index.html">Street<span style="color: #D9411E">Coder&nbsp</span></h1>
-      <p>Eat! <span style="color: #D9411E">Sleep!</span> Code! <span style="color: #D9411E">Repeat!</span></p>
-      <nav class="navbar  navbar-right" role="navigation">
-        <div class="container-fluid">
-          <ul class="nav navbar-nav mynavbar">
-            <li><button><a href="index.html"><span style="color:white">
-              <i class="fa fa-home"></i></span>&nbspHome</a></button></li>
-              <li><button><a href="#project"><span style="color:white">
-                <i class="fa fa-briefcase"></i></span>&nbspProjects</a></button></li>
-                <li><button><a target="_blank" href="https://streetcoder.org/"><span style="color:white">
-                  <i class="fa fa-wordpress"></i></span>&nbspBlog</a></button></li>
-                  <li><button><a target="_blank" href="https://github.com/streetcoder10"><span style="color:white">
-                    <i class="fa fa-github-alt"></i></span>&nbspGitHub</a></button></li>
-                    <li><button><a href="#contact"><span style="color:white"><i class="fa fa-paper-plane">
-                    </i></span>&nbspContact Me</a></button></li>
-                  </ul>
-                </div>
+  <!--Header Content-->
+
+    <div class="container">
+      <div class="row text-center">
+        <header>
+        <div class="brand">
+          <h1>Street<span style="color: #1E90FF;">Coder</h1>
+            <h4>Eat! Sleep! <span style="color: #E37222;">Code! Repeat!</span></h4>
+          </div>
+
+          <!-- Navigation Bar-->
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav navbar">
+                <li><button><a href="index.html"><span><i class="fa fa-home"></i></span>&nbspHome</a></button></li>
+                <li><button><a href="#projects"><span><i class="fa fa-briefcase"></i></span>&nbspProjects</a></button></li>
+                <li><button><a target="_blank" href="https://streetcoder.org/"><span><i class="fa fa-wordpress"></i></span>&nbspBlog</a></button></li>
+                <li><button><a target="_blank" href="https://github.com/streetcoder10"><span><i class="fa fa-github-alt"></i></span>&nbspGitHub</a></button></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <!-- End of Navigation Bar-->
+        <!--End of Header Content-->
+        <hr>
+        <!-- Page Content Section-->
+        <section class="content">
+          <div class="container">
+            <div class="row text-center">
+              <div class="profilepic">
+                <img src="/Users/avanthiarjun212/Google Drive/Test Portfolio/img/profilepic.jpg" alt="">
               </div>
-            </nav>
-          </header>
-
-          <section>
-            <div class= "container jumbotron">
-              <div id="colorbox" class="row">
-                <img id="profilepic" src="images/profile-pic.png" alt="My photo">
-                <h2 id="hello">Hello! my name is Vikram, I'm a junior developer from Columbus, OH.</h2>
-                <p id="hello1">I am 6'1 and 24 years old with a Master's in Computer Science.<br>
-                  I design and develop Java & Web applications,play Games and watch Football (european!).<br>
-                  Follow my Blog for programming & interview related information.<br>
-                  To see the projects I've worked on click below!</p>
-                  <center>
-                    <button type="button"><a style="font-size: 23px; color:#D9411E"href="#project">My Projects</a></button>
-                  </center>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="row">
-
-                        <div class="col-xs-12 col-sm-6 col-md-6">
-                          <div class="skill-block">
-                            <div class="sk-text">
-                              <h3>Languages I know</h3>
-                              <i class="devicon-java-plain-wordmark colored" ></i>
-                              <i class="devicon-javascript-plain colored"></i>
-                              <i class="devicon-css3-plain-wordmark colored"></i>
-                              <i class="devicon-html5-plain-wordmark colored"></i>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-6 col-md-6 ">
-                          <div class="skill-block">
-                            <div class="sk-text">
-                              <h3>Libraries & Frameworks I've used</h3>
-                              <p style="position: relative; bottom: 10; width:100%; text-align: center">
-                                AngularJS, JQuery, Bootstrap, Spring MVC, Hibernate, JUnit.</p>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-xs-12 col-sm-6 col-md-12 ">
-                            <div class="skill-block">
-                              <div class="sk-text">
-                                <h2>My tools for development</h2>
-                                <p>Eclipse IDE, IntelliJ, WebStorm, MySQL, Maven, Tomcat, GitHub, Atom, SublimeText 3, FindBugs.</p>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
+              <div class="aboutme">
+                <h2>Hi! my name is Vikram I am a Junior Developer.</h2>
+                <p>I hail from Columbus OH and I love to build Web-Applications and code in Java.</p>
+                <p>I currently Volunteer for <span style="color: #E37222;">Code4SocialGood</span> while looking for a Full-Time job.</p>
+                <p>I update my GitHub regularly and Blog whenever i have time.</p>
+                <p><a href="mailto:vikygopro@gmail.com" target="_top"><i class="fa fa-paper-plane"></i> vikygopro@gmail.com</a>
+                  <br></span><a href="tel:1-304-690-0727"><i class="fa fa-phone-square"></i> (304)-690-0727</a></p>
+                  <div id="socialicons">
+                    <p><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></p>
                     </div>
+                    <div class="knowmore">
+                      <button type="button" name="button"><a href="#">See My Work</a></button>
+                    </div>
+
                   </div>
                 </div>
               </div>
+              </section>
+              <footer>
+                <div class="copyright">
+                  <p>&copy 2017 Vikram Gopal Media. All Rights Reserved.</p>
+                </div>
+              </footer>
+            </div>
+          </div>
 
-              <div class="container jumbotron">
-                <a name="project"><h2 style="text-align: center; color: white;margin-top: -30px;margin-bottom: 20px;">My Projects //currently updating</h2></a>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="row">
 
-                      <div class="col-xs-12 col-sm-6 col-md-10 col-md-offset-1">
-                        <div class="skill-block">
-                          <div class="sk-text">
-                            <h3>Personal Portfolio.</h3>
-                            <h4><strong>Description</strong><br>Designed and developed my own portfolio for displaying
-                              <br>my skills and projects for prospective employers.</h4>
-                              <img src="images/portfolio.jpg" alt="portfolio home page" width="440" height="auto">
-                              <ul id="how" class="list-unstyled">
-                                <li>Built from scratch using HTML5/CSS3.</li>
-                                <li>Used Atom editor and GitHub Desktop Client.</li>
-                                <li>Used Bootstrap to create responsive UI components.</li>
-                                <li>Hosted portfolio on GitHub pages.</li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+      <!-- End of Page Content Section-->
 
-                        <div class="col-xs-12 col-sm-6 col-md-10 col-md-offset-1">
-                          <div class="skill-block">
-                            <div class="sk-text">
-                              <h3>Web Application for Online Programming Contest</h3>
-                              <h4><strong>Description</strong><br>Team of 7 to design and develop a
-                                website for conducting contests for high school students,<br>
-                                Adminstrator posts contests, invites school teams.
-                                Teachers submit projects on behalf of student groups,
-                                judges grade the projects, leaderboard is released.</h4>
-                                <img src="images/contest.png" alt="portfolio home page" width="440" height="auto">
-                                <ul id="how" class="list-unstyled">
-                                  <li>Used HTML/CSS for website structure and design.</li>
-                                  <li>Used PHP 5.3 for development and mySQL database.</li>
-                                  <li>Used JavaScript, Jquery and Bootstrap for a clean responsive design.</li>
-                                  <li>Used XAmpp to host web application on Apache Server</li>
-                                  <li>Used PHPMailer for sending and recieving mails.</li>
-                                  <li></li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
+      <!-- Footer Content-->
 
-                          <div class="col-xs-12 col-sm-6 col-md-10 col-md-offset-1">
-                            <div class="skill-block">
-                              <div class="sk-text">
-                                <h3>Autonomous Arduio Car</h3>
-                                <h4><strong>Description</strong><br>Designed and developed a 4WD car
-                                  with autonomous navigation  scratch using Arduino UNO. Car is connected to
-                                  IBM bluemix using the quickstart recipe.</h4>
-                                  <img src="images/arduinocar.jpg" alt="portfolio home page" width="440" height="auto">
-                                  <ul id="how" class="list-unstyled">
-                                    <li>Built the car with indiviual components from SparkFun Robotics.</li>
-                                    <li>Used Arduino IDE to insert code for navigation, sensor setup.</li>
-                                    <li>Used Proximity sensors for obstacle detection and HD Camera for live feed.</li>
-                                    <li>Used sensors for temperature, humidity, wifi sheild for connectivity. </li>
-                                    <li>Used IBM blumix quick start recipe for transmitting sensor data to the cloud.</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
 
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="container jumbotron">
-                      <a name="contact"><h2 style="text-align: center; color: white;margin-top: -30px;margin-bottom: 20px;">Contact Me //Under development</h2></a>
-                    </div>
-
-                  </section>
-
-                  <footer>
-                    <div class="row text-center">
-                      <p>Portfolio created in Atom &reg using Bootstrap &copy.
-                        Pages powered by GitHub &copy</p>
-                      </div>
-                    </div>
-
-                  </footer>
-
-                </body>
-                </html>
+    </body>
+    </html>
