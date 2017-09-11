@@ -6,7 +6,12 @@ body {
   font-size: 70px;
 }
 
-.brand>h1>a>:focus, .brand>h1>a:hover {
+h2 {
+  color: #1E90FF;
+  font-size: 40px;
+}
+
+a:focus,a:hover {
   text-decoration: none;
   color: #D9B310;
   background-color: transparent !important;
@@ -15,6 +20,7 @@ body {
 .brand>h3 {
   position: relative;
   bottom: 10px;
+  color: #1E90FF;
 }
 
 header nav {
@@ -53,13 +59,11 @@ header button {
   padding-right:1.5vw;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
 }
 
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {height: 450px}
 
 .aboutme {
@@ -69,13 +73,19 @@ header button {
 .aboutme a {
   font-size: 20px;
 }
-.aboutme>h4>a:focus, .aboutme>h4>a:hover {
-  text-decoration: none;
-  color: #D9B310;
-  background-color: transparent !important;
+
+.profilepic img{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  padding-top: 10px;
 }
 
-/* Set gray background color and 100% height */
+.feature img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
 .sidenav {
   background-color: #f1f1f1;
   height: 100%;
@@ -83,20 +93,6 @@ header button {
   border: 0 !important;
 }
 
-
-.sidenav>p>a:focus, .sidenav>p>a:hover {
-  text-decoration: none;
-  color: #D9B310;
-  background-color: transparent !important;
-}
-
-.sidenav>a>i:focus, .sidenav>a>i:hover {
-  text-decoration: none;
-  color: #D9B310;
-  background-color: transparent !important;
-}
-
-/* Set black background color, white text and some padding */
 footer {
   background-color: #555;
   color: white;
@@ -107,7 +103,6 @@ footer {
   font-size: 20px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 768px) {
   .brand>h1>a {
     font-size: 40px;
@@ -128,11 +123,4 @@ footer {
   }
   .row.content {height:auto;}
 
-}
-
-.profilepic img{
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-  padding-top: 10px;
 }
