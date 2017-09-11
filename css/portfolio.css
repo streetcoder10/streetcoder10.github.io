@@ -107,6 +107,10 @@ footer {
   .brand>h1>a {
     font-size: 40px;
   }
+  
+  a { 
+    font-size: 20px;
+  }
 
   .aboutme h4 {
     font-size: 15px;
