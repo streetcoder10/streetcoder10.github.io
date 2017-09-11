@@ -1,5 +1,7 @@
 # Personal Portfolio
 
-This repo will house files created from scratch for developing my own portfolio on GitHub Pages using various web development technologies. 
+### My portofolio is designed with HTML5/CSS3 and BootStrap. The website is responsive and the conent is continously updated.
 
-Cheers!
+### Visitmy portfolio at https://streetcoder10.github.io/
+
+### Cheers!
