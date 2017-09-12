@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Vikram Gopal | Portfolio</title>
+  <meta charset="utf-8">
+  <!-- Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Custom Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+</head>
+
+<!-- Start of Page Content -->
+<body ng-app="Portfolio">
+  <!--Brand -->
+  <header class="text-center">
+    <div class="brand">
+      <h1><a href="index.html">StreetCoder</a></h1>
+      <h3>Eat! Sleep! Code! Repeat!</h3>
+      <div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav navbar">
+              <li><button><a href="index.html"><span><i class="fa fa-home"></i></span>&nbspHome</a></button></li>
+              <li><button><a href="#projects"><span><i class="fa fa-briefcase"></i></span>&nbspProjects</a></button></li>
+              <li><button><a target="_blank" href="https://streetcoder.org/"><span><i class="fa fa-wordpress"></i></span>&nbspBlog</a></button></li>
+              <li><button><a target="_blank" href="https://github.com/streetcoder10"><span><i class="fa fa-github-alt"></i></span>&nbspGitHub</a></button></li>
+              <li><button><a href="mailto:vikygopro@gmail.com" target="_top"><span><i class="fa fa-paper-plane"></i></span>&nbspMail</a></button></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Page Body -->
+      <section>
+        <div class="main" ng-controller ="MainController">
+          <div class="container-fluid text-center">
+            <div class="row content">
+
+              <!-- Left side nav bar -->
+              <div class="col-sm-2 sidenav">
+              </div>
+
+              <!-- Center Page Content -->
+              <div class="col-sm-8" >
+                <div class="aboutme">
+                  <hr>
+                  <h2>Web Application for conducting High School Programming Contests.</h2>
+                  <h3>HSPC Web App</h3>
+                  <div class="feature">
+                    <img src="img/hspc.png">
+                  </div>
+                  <h3>Description</h3>
+                  <p>This was my Capstone project for Marshall University Computer Science department. The project was desinged and developed by a team of 7 members. The essence of the project is to create a project that
+                    can be used by the University to conduct programming contests for High School Students. The contest will be announced on the website. Teachers can register teams of students for their school. Once registered the details
+                    of the contest will be provided to the teachers. The teams will be given time to work on their projects for a predetermined period (could be a semester or an academic year).
+                    Once the students are satisfied with their results they can ackowledge their respective teachers about completetion. The teachers can then submit the project files for review.
+                    The submitted files will be assigned to University selected judges for grading and remarks. Once grading has be completed the University will post the leaderboards on the contest website. The leaderboard will contain information
+                    on how the project was graded and what could be done to improve. The top 3 projects will be recognised by the Unveristy awarded on campus.</p>
+                    <h4>Environment – PHP, HTML/CSS, JavaScript, MySQL, JQuery, Bootstrap, XAMPP, SQLLog, Notepad++.</h4>
+                    <hr>
+                    <h2>Simple 2D Game Using PhaserJS Game Framework.</h2>
+                    <h3>Volcano Runner</h3>
+                    <h3>Play the game here <a href="https://streetcoder10.github.io/First_Game/">VolcanoRunner!</a></h3>
+                    <div class="feature">
+                      <img src="img/volcano.png">
+                    </div>
+                    <h3>Description</h3>
+                    <p>This is the project I'm working on currently. The game is developed using HTML5/CSS3 and PhaserJS game developemnt framework. The Objective of the game
+                      is simple, collect all the stars and avoid the fiery volcanos. The game runs on the browser and unfortunately as of now the browser needs to be refreshed to play again.
+                      However i plan to add more challenging environments and make it a multi-level game with more options to explore and support for mobile devices. Enjoy!</p>
+                      <h4>Environment – HTML5/CSS3, JavaScript, PhaserJS game framework, Atom, Github.</h4>
+                      <hr>
+                      <h2>Responsive Portfolio Using Bootstrap</h2>
+                      <div class="feature">
+                        <img src="img/portfolio.png" alt="">
+                      </div>
+                      <h3>Description</h3>
+                      <p>Bootstrap was the first responsive framework I learned. It was amazing to see how much the framework transformed my portfolio from messed up layouts in different screen sizes to responsive layouts
+                        that gave smooth transitions of viewing in different devices. And all of it was done in a day's with fresh knowledge of the concept and understading the grid system. I am currently working on migrating all the data into a AngularJS application
+                        to include more features and better effects. Responsive design is one of the most simple yet highly regarded areas of web-development is an understatement. I hope you enjoy the portfolio as much i enjoyed developing it. </p>
+                        <h4>Environment – HTML5/CSS3, Bootstrap, Atom, Github.</h4>
+                        <hr>
+                        <h2>Autonomous Arduino Car connected to IBM Bluemix.</h2>
+                        <h3>Obstacle detection - Multiple Sensors - HD Camera - Live feed to IBM Bluemix.</h3>
+                        <p>Play the game here <a href="https://streetcoder10.github.io/First_Game/">VolcanoRunner!</a></p>
+                        <video width="400" controls>
+                          <source src="vid/arduino.mp4" type="video/mp4">
+                          </video>
+                          <h3>Description</h3>
+                          <p>I built my own version of the famous Arduino Car. The car has hardware from sparkfun technologies. The car has a proximity and IR sensor array for obstacle detection. The car has temperature, humidity, dew, heat, pressure and
+                            light detection sensors. The car has a live HD camera that feeds wirelessey to a display. The car has a wifi sheild and bluetooth module for connectivity. The car is connected to the IBM bluemix cloud for publishing live sensor data in JSON format.
+                            This was achieved with the help of the IBM bluemix quick start recipe which enables any device to get registered to the cloud and publish available data instantly.</p>
+                            <h4>This project was published and presented at the International Conference for Fuzzy Information and Engineering 2013.</h4>
+                            <h4>Environment – C++, Arduino IDE, SparkFun Car-Build Components and Sensors, IBM QuickStart Recipe.</h4>
+                            <hr>
+
+                            <h2>List not exhaustive. // Still updating projects.</h2>
+                            <hr>
+                            <div class="text-center">
+                              <a href="projects.html">TO GO TO THE TOP.</a>
+                              <hr>
+                              <a href="index.html" target="_top">TO RETURN TO THE MAIN PAGE.</a>
+                            </div>
+                            <!-- Right side nav bar -->
+                            <div class="col-sm-2 sidenav">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <!-- End of Page Body -->
+                    
+                    <!--Footer -->
+                    <footer class="container-fluid text-center">
+                      <p>&copy 2017 Vikram Gopal Media. Powered by GitHub Pages.</p>
+                    </footer>
+
+
+                    <!-- Script Files -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                  </body>
+
+                  </html>

@@ -30,7 +30,7 @@ header nav {
   border: 0 !important;
 }
 
- a {
+a {
   font-size: 25px;
   color: #373737;
   white-space: nowrap;
@@ -74,6 +74,10 @@ header button {
   font-size: 20px;
 }
 
+.aboutme p {
+  text-align: justify;
+}
+
 .profilepic img{
   height: 300px;
   width: 300px;
@@ -84,6 +88,17 @@ header button {
 .feature img {
   width: 100%;
   padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.aboutme h4 {
+  font-size: 20px;
+  text-align: justify;
+}
+video {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
 }
 
 .sidenav {
@@ -99,16 +114,12 @@ footer {
   padding: 15px;
 }
 
-.aboutme h4 {
-  font-size: 20px;
-}
-
 @media screen and (max-width: 768px) {
   .brand>h1>a {
     font-size: 40px;
   }
-  
-  a { 
+
+  a {
     font-size: 20px;
   }
 
