@@ -88,6 +88,11 @@ header button {
 .feature img {
   width: 100%;
   padding-bottom: 10px;
+}
+
+.projectimg img {
+  width: 100%;
+  padding-bottom: 10px;
   border: 1px solid black;
 }
 
@@ -95,6 +100,11 @@ header button {
   font-size: 20px;
   text-align: justify;
 }
+
+#aboutme {
+  text-align: center;
+}
+
 video {
   width: 100%;
   height: auto;
