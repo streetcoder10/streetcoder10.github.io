@@ -240,7 +240,6 @@ header.masthead {
     height: 230px;
     width: 100%;
     border: 2px solid #373737;
-    padding-bottom: 40px;
   }
 
 @media (min-width: 767px) {
